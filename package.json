@@ -21,3 +21,7 @@
     "stylelint": "^7.4.2"
   }
 }
+
+"scripts": {
+  "start": "node server.js"
+}
