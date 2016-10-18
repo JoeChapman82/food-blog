@@ -1,0 +1,52 @@
+
+
+// alternate navbar test
+
+
+
+.navbar-main, .navbar-contact {
+  list-style-type: none;
+  margin: auto;
+  border: $border-navbar;
+  background-color: $bg-color-nav-bar;
+  font-weight: bold;
+  overflow: hidden;
+  font-size: $font-large;
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  color: $white;
+  text-align: center;
+  padding: 12px 12px;
+  border: 2px solid $bg-color-nav-bar;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: $dark-yellow;
+}
+
+a:focus {
+  outline: none;
+  border: 2px solid $yellow;
+}
+}
+
+li.mobile-menu {
+  display: none;
+}
+
+
+@media screen and (max-width:780px) {
+  .navbar-main li {display: none;}
+
+  .navbar-main .mobile-menu {
+    float: right;
+    display: inline-block;
+    font-size: $font-large;
+  }
+}

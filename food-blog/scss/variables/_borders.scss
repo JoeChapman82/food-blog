@@ -1,0 +1,23 @@
+$border-navbar: 4px double $border-color2;
+$border-section: 10px ridge $border-color1;
+$border-form: 3px solid $border-color-form;
+
+@mixin border-radius($radius: 4px) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin box-shadow($h-shadow:2px, $v-shadow:2px, $blur-shadow:2px, $color-shadow:$shadow-color) {
+  -webkit-box-shadow: $h-shadow $v-shadow $blur-shadow $color-shadow;
+  -moz-box-shadow: $h-shadow $v-shadow $blur-shadow $color-shadow;
+  box-shadow: $h-shadow $v-shadow $blur-shadow $color-shadow;
+
+}
+
+@mixin box-sizing($box-sizing: border-box) {
+  -webkit-box-sizing: $box-sizing;
+  -moz-box-sizing: $box-sizing;
+  box-sizing: $box-sizing;
+}

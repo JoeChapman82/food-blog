@@ -1,0 +1,35 @@
+
+@mixin border-radius($radius: 4px) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin box-shadow($h-shadow:2px, $v-shadow:2px, $blur-shadow:2px, $color-shadow:$shadow-color) {
+  -webkit-box-shadow: $h-shadow $v-shadow $blur-shadow $color-shadow;
+  -moz-box-shadow: $h-shadow $v-shadow $blur-shadow $color-shadow;
+  box-shadow: $h-shadow $v-shadow $blur-shadow $color-shadow;
+
+}
+
+@mixin box-sizing($box-sizing: border-box) {
+  -webkit-box-sizing: $box-sizing;
+  -moz-box-sizing: $box-sizing;
+  box-sizing: $box-sizing;
+}
+
+@mixin gradient-vertical($gradient-vertical-top, $gradient-vertical-bottom) {
+  background-color: $gradient-vertical-top;
+  background: -webkit-linear-gradient($gradient-vertical-top, $gradient-vertical-bottom);
+  background: -o-linear-gradient($gradient-vertical-top, $gradient-vertical-bottom);
+  background: -moz-linear-gradient($gradient-vertical-top, $gradient-vertical-bottom);
+  background: linear-gradient($gradient-vertical-top, $gradient-vertical-bottom);
+}
+
+@mixin font-size-mixin($font-size) {
+  font-size: $font-size;
+  @media screen and(max-width: 640px){
+    font-size: $font-size*0.9;
+  }
+}

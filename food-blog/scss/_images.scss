@@ -1,0 +1,11 @@
+img{
+  max-width: 100%;
+  border: 1px solid $black;
+  @include box-shadow;
+}
+
+//fix later - rethink break point for grid layout when new navbar finished
+img.mealsSectionImage{
+  height: 275px;
+  width: 350px;
+}

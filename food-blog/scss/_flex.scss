@@ -1,0 +1,39 @@
+.container {
+    display: -webkit-flex;
+    display: flex;
+    height: auto;
+    padding: 20px;
+    justify-content: center;
+}
+
+.item {
+    width: 100%;
+    padding: 30px;
+}
+
+.item-small {
+  width: 100%;
+  padding: 30px;
+  flex: 1;
+}
+
+.item-large {
+  width: 100%;
+  padding: 30px;
+  flex: 2;
+}
+
+@media only screen and(max-width: 800px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
+
+.first {
+    -webkit-order: -1;
+    order: -1;
+}
+
+.inline {
+  display: inline-flex;
+}

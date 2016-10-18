@@ -1,0 +1,218 @@
+.container {
+  display: -webkit-flex;
+  display: flex;
+  height: auto;
+  padding: 20px;
+  justify-content: center; }
+
+.item {
+  width: 100%;
+  padding: 30px; }
+
+.item-small {
+  width: 100%;
+  padding: 30px;
+  flex: 1; }
+
+.item-large {
+  width: 100%;
+  padding: 30px;
+  flex: 2; }
+
+@media only screen and (max-width: 800px) {
+  .container {
+    flex-wrap: wrap; } }
+
+.first {
+  -webkit-order: -1;
+  order: -1; }
+
+.inline {
+  display: inline-flex; }
+
+form fieldset {
+  padding: 10px 25px 10px 25px;
+  background-color: #D3D3D3;
+  border: 3px solid #000000;
+  font-weight: strong; }
+
+form input {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  width: 100%;
+  border: 3px solid #000000;
+  padding: 5px;
+  margin-bottom: 10px;
+  outline: none; }
+
+form textarea {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  width: 100%;
+  border: 3px solid #000000;
+  padding: 5px;
+  margin-bottom: 10px;
+  outline: none;
+  height: 200px; }
+
+form input:focus, form textarea:focus {
+  border-color: #FFFF00; }
+
+@media screen and (min-width: 1000px) {
+  form input {
+    width: 50%;
+    display: block; }
+  form textarea {
+    width: 100%;
+    height: 10em;
+    display: block; } }
+
+input[type=submit] {
+  background-color: #AC7339;
+  font-weight: bold;
+  border: 3px solid #000000;
+  color: #000000;
+  padding: 10px;
+  margin: 4px 4px;
+  -webkit-box-shadow: 2px 2px 2px #172727;
+  -moz-box-shadow: 2px 2px 2px #172727;
+  box-shadow: 2px 2px 2px #172727;
+  cursor: pointer; }
+
+input[type=submit]:hover {
+  background-color: #7F7F00; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background-color: #B4A79A;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1200px;
+  font-size: 100%;
+  margin: 0 auto; }
+
+body {
+  font-size: 16px; }
+  @media screen and (max-width: 640px) {
+    body {
+      font-size: 14.4px; } }
+
+p {
+  font-size: 1em; }
+
+.main {
+  border: 10px ridge #7a7a52;
+  font-family: Arial, Helvetica, sans-serif; }
+
+a:focus {
+  outline: none;
+  border-color: #FFFF00; }
+
+.home-link {
+  text-decoration: none;
+  color: #000000; }
+
+.home-link:focus {
+  outline: 2px solid #FFFF00; }
+
+.main-heading {
+  text-align: center;
+  padding: 20px;
+  font-size: 250%; }
+
+.section {
+  background-color: #D7D7C1;
+  border-bottom: 10px ridge #7a7a52; }
+
+[class*="column-"] {
+  width: 100%;
+  float: left;
+  padding: 15px; }
+
+@media only screen and (min-width: 480px) {
+  .column-quarter {
+    width: 25%; }
+  .column-third {
+    width: 33.33%; }
+  .column-half {
+    width: 50%; }
+  .column-two-thirds {
+    width: 66.66%; }
+  .column-three-quarters {
+    width: 75%; }
+  .column-full {
+    width: 100%; } }
+
+header {
+  background-color: #AC7339;
+  background: -webkit-linear-gradient(#AC7339, #D7D7C1);
+  background: -o-linear-gradient(#AC7339, #D7D7C1);
+  background: -moz-linear-gradient(#AC7339, #D7D7C1);
+  background: linear-gradient(#AC7339, #D7D7C1);
+  border: 10px ridge #7a7a52;
+  font-family: Arial, Helvetica, sans-serif; }
+
+footer {
+  background-color: #B4A79A;
+  border: 10px ridge #7a7a52;
+  font-family: Arial, Helvetica, sans-serif; }
+
+footer {
+  clear: left; }
+
+img {
+  max-width: 100%;
+  border: 1px solid #000000;
+  -webkit-box-shadow: 2px 2px 2px #172727;
+  -moz-box-shadow: 2px 2px 2px #172727;
+  box-shadow: 2px 2px 2px #172727; }
+
+img.mealsSectionImage {
+  height: 275px;
+  width: 350px; }
+
+.navbar-main, .navbar-contact {
+  list-style-type: none;
+  margin: auto;
+  border: 4px double #996600;
+  background-color: #003300;
+  font-weight: bold;
+  overflow: hidden;
+  font-size: 120%; }
+  .navbar-main li, .navbar-contact li {
+    float: left; }
+  .navbar-main a, .navbar-contact a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 12px 12px;
+    border: 2px solid #003300;
+    text-decoration: none; }
+  .navbar-main a:hover, .navbar-contact a:hover {
+    background-color: #7F7F00; }
+  .navbar-main a:focus, .navbar-contact a:focus {
+    outline: none;
+    border: 2px solid #FFFF00; }
+
+li.mobile-menu {
+  display: none; }
+
+@media screen and (max-width: 780px) {
+  .navbar-main li {
+    display: none; }
+  .navbar-main .mobile-menu {
+    float: right;
+    display: inline-block;
+    font-size: 120%; } }
+
+table, td, tr {
+  max-width: 100%;
+  border: 3px solid #000000;
+  padding: 1em; }
