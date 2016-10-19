@@ -3,13 +3,27 @@
 
 <head>
     <meta charset="utf-8">
-    <title>The Eatery - Main page</title>
+    <title>Joe's Eatery - Home page</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-
-
+    <link rel="apple-touch-icon" sizes="57x57" href="../icons/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../icons/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../icons/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../icons/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../icons/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../icons/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../icons/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../icons/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../icons/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../icons/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicons/favicon-16x16.png">
+    <link rel="manifest" href="../icons/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../icons/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 
@@ -17,13 +31,11 @@
 
 
     <header>
-          <h1 class="main-heading">
-            <img src="/images/sundayRoast.jpg" alt="" role="presentation" height="50" width="60">
-            <a class="home-link" href="/">Joe&#39;s Eatery</a>
-            <img src="/images/sundayRoast.jpg" alt="" role="presentation" height="50" width="60">
-          </h1>
+          <div class="main-heading" role="banner">
+            <a class="home-link" href="/"><img class="logo-image" alt="The Joe's Eatery logo" src="../images/logo.png"></a>
+          </div>
 
-          <nav>
+          <nav role="nav" aria-label="Main navigation">
         <ul class="navbar-main">
           <li><a href="/">Home</a></li>
           <li><a href="views/pageOne.html">Recipe Corner</a></li>
@@ -42,18 +54,18 @@
 <div class="main" role="main">
 
 <div class="section">
-<div class="container">
+<div class="container align-center">
   <div class="item">
-        <img src="images/papaJoes.jpeg" alt="The Papa Joe's logo" height="225" width="450">
+        <img class="section-image-large" src="images/papaJoes.png" alt="The Papa Joe's logo">
 
 </div>
   <div class="item">
      <h2>About us</h2>
-    <p>Joe's Eatery was founded in 2016 to spread the love of home made and takeaway food from around the globe.</p>
+    <p>Joe&#39;s Eatery was founded in 2016 to spread the love of home made and takeaway food from around the globe.</p>
     <p>
-      Many people can eat food as often as three times a day! There's so many opportunities to suit different palletes.
-       With a food shop or takeaway on almost every corner, it's hard not to grab something from everywhere and eat it all
-        at once. Joe's eatery is dedicated to finding the best of the best from <strong>your</strong> local area...
+      Many people can eat food as often as three times a day! There&#39;s so many opportunities to suit different palletes.
+       With a food shop or takeaway on almost every corner, it&#39;s hard not to grab something from everywhere and eat it all
+        at once. Joe&#39;s eatery is dedicated to finding the best of the best from <strong>your</strong> local area...
         just as long as that area is Leeds.
     </p></div>
 </div>
@@ -64,7 +76,7 @@
       <!-- three meals with imgs - txt under each img -->
   <div class="item" id="homePageMealOne">
     <h2>Meal 1 - Sunday Roast</h2>
-    <img class="mealsSectionImage" alt="A plate full of Sunday roast dinner" src="images/sundayRoast.jpg">
+    <img class="mealsSectionImage section-image" alt="A plate full of Sunday roast dinner" src="images/sundayRoast.jpg">
 
     <p>
       A delicious Sunday roast cooked from only the finest ingredients. A few succulent slices of gammon with a healthy
@@ -76,16 +88,16 @@
 
   <div class="item" id="homePageMealTwo">
     <h2>Meal 2 - Masala Fish</h2>
-    <img class="mealsSectionImage" alt="A rather unhealthy looking curried fish, wrapped in paper" src="images/masalaFish.jpg">
+    <img class="mealsSectionImage section-image" alt="A rather unhealthy looking curried fish, wrapped in paper" src="images/masalaFish.jpg">
 
     <p>
-      A tasty little treat that I found for sale at a fish and chip shop in bradford. This really was the bargain of
+      A tasty little treat that I found for sale at a fish and chip shop in Bradford. This really was the bargain of
       the day
     </p>
 
     <p>
       A generous serving of haddock, cut in the well sized chunks and covered in a delicious coating of masala sauce. This
-      fine treat wsa then places delicately atop a large naan bread and wrapped in traditional paper. This was served with
+      fine treat was then placed delicately atop a large naan bread and wrapped in traditional paper. This was served with
       a large portion of chips, a small portion of salad and a selection of tips. Tasty.
     </p>
 
@@ -93,10 +105,13 @@
 
   <div class="item" id="homePageMealThree">
     <h2>Meal 3 - Oreo Cake</h2>
-    <img class="mealsSectionImage" alt="A three tiered Oreo cake, covered in icing and crushed Oreo biscuits" src="images/oreoCake.jpg">
+    <img class="mealsSectionImage section-image" alt="A three tiered Oreo cake, covered in icing and crushed Oreo biscuits" src="images/oreoCake.jpg">
 
     <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non. Suspendisse turpis leo, pellentesque a lobortis a, pellentesque vel leo. Phasellus fringilla, libero at rutrum venenatis, purus odio ullamcorper velit, at faucibus est dolor non ex. Sed dictum ac libero eget fermentum. Vivamus ac ipsum non nulla consectetur facilisis. Etiam euismod, tellus quis consequat suscipit, enim est varius nisi, id facilisis nisi magna ut libero. Nam at mi justo. Pellentesque tincidunt vulputate neque, vitae luctus nulla fringilla nec. Fusce at sem ut leo suscipit.
+      This was the last picture of food that I had on my phone. I made this for the final bake sale at Hume House. It
+      probably tops the list of the least healthy things I've ever made (It was following an American recipe). If I
+      remember rightly, the cake mixture and icing contained about half a bottle of oil and three blocks of butter. A total
+      of 4 packets of oreos were used, either crushed up and mixed with the icing or just plonked on top.
     </p>
   </div>
 
@@ -108,10 +123,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex le
   <div class="item-small">
   <!-- feature meal on left, img with txt under. Recipe table right -->
   <h3>Featured Meal</h3>
-  <img src="images/ubuntuCola.jpg" alt="A temporary image" height="350" width="300">
+  <img class="section-image" src="images/ubuntuCola.jpg" alt="A temporary image" height="350" width="300">
   <h4>Meal title and details</h4>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non. Suspendisse turpis leo, pellentesque a lobortis a, pellentesque vel leo. Phasellus fringilla, libero at rutrum venenatis, purus odio ullamcorper velit, at faucibus est dolor non ex. Sed dictum ac libero eget fermentum. Vivamus ac ipsum non nulla consectetur facilisis. Etiam euismod, tellus quis consequat suscipit, enim est varius nisi, id facilisis nisi magna ut libero. Nam at mi justo. Pellentesque tincidunt vulputate neque, vitae luctus nulla fringilla nec. Fusce at sem ut leo suscipit.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque et.
+     Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non. Suspendisse turpis leo, pellentesque a lobortis a,
+      pellentesque vel leo. Phasellus fringilla, libero at rutrum venenatis, purus odio ullamcorper velit, at faucibus est
+       dolor non ex. Sed dictum ac libero eget fermentum. Vivamus ac ipsum non nulla consectetur facilisis. Etiam euismod,
+       tellus quis consequat suscipit, enim est varius nisi, id facilisis nisi magna ut libero. Nam at mi justo.
+        Pellentesque tincidunt vulputate neque, vitae luctus nulla fringilla nec. Fusce at sem ut leo suscipit.
   </p>
 </div>
 
@@ -136,25 +156,28 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex le
     </tr>
     <tr>
       <td>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
-      <br>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
-      <br>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque et.
+       Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque et.
+       Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque et.
+       Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
       </td>
       <td>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
-        <br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
-        <br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque
+         et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque
+         et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque
+        et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
       </td>
       <td>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
-        <br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
-        <br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque
+         et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque
+         et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex leo, ac placerat dolor pellentesque
+        et. Cras vehicula efficitur nisi, rhoncus pretium lorem viverra non.
       </td>
     </tbody>
   </table>
@@ -167,37 +190,65 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin ex le
 
 <footer id="contactForm">
 <div class="container">
-<!-- Some sort of contact form to go here -->
+
 
 <div class="item">
-<form class="contact-form" action="" method="post">
+<!-- Just using get for the moment - Will switch to post -->
+<form class="contact-form" role="form" action="/" method="get">
   <fieldset>
     <legend>Contact Us</legend>
+    <div>
   <label for="contactName">Your name</label>
   <input id="contactName" type="text" name="Your name" value="">
+</div>
+<div>
   <label for="contactEmail">Your email address</label>
   <input id="contactEmail" type="email" name="Your email address" value="">
+</div>
+<div>
   <label for="contactComments">Your thoughts</label>
   <textarea id="contactComments" name="Tell us your thoughts"></textarea>
+</div>
     <input type="submit" value="Submit">
     </fieldset>
 </form>
 </div>
 
 <div class="item">
-  <p>Address and telephone here</p>
+    <pre class="address-telephone">
+  You can also write to us at:
+  Joe's Eatery
+  Leeds
+  PO Box 1642
+
+  Or telephone:
+  07123 456789
+</pre>
+
+<p>Or you can contact us through social media</p>
+  <a href="/"> <img class="social-icon" src="../icons/social/facebook-logo.png" alt="Go to our Facebook page"></a>
+  <a href="/"> <img class="social-icon" src="../icons/social/twitter-logo.png" alt="Go to our Twitter page"></a>
+  <a href="/"> <img class="social-icon" src="../icons/social/skype-logo.png" alt="Contact us through Skype"></a>
+  <a href="/"> <img class="social-icon" src="../icons/social/linkedin-logo.png" alt="Go to our Linked In page"></a>
+
+  <address>
+    If you notice any issues with this page,<br>
+    Please contact me
+</address>
+
+<div role="contentinfo">
+  &#169; JoeCo industries (No copyright held)
 </div>
 
-
 </div>
-
+</div>
 
 </footer>
 
 
 
 <footer>
-  <nav>
+  <nav role="navigation" aria-label="Contact navigation">
     <ul class="navbar-contact">
       <li><a href="/">Home</a></li>
       <li><a href="views/pageOne.html">Contact us</a></li>

@@ -1,18 +1,17 @@
-form {
-
 fieldset{
-  padding: 10px 25px 10px 25px;
+  @include border-radius(4px);
+  padding: 0.625em 1.5em 0.625em 1.5em;
   background-color: $bg-color-form;
   border: $border-form;
-  font-weight: strong;
+  font-weight: 600;
 }
 
 input {
  @include border-radius(4px);
   width: 100%;
   border: $border-form;
-  padding: 5px;
-  margin-bottom: 10px;
+  padding: 0.5em;
+  margin-bottom: 1em;
   outline: none;
 }
 
@@ -20,20 +19,24 @@ textarea{
   @include border-radius(4px);
    width: 100%;
    border: $border-form;
-   padding: 5px;
-   margin-bottom: 10px;
+   padding: 0.5em;
+   margin-bottom: 1em;
    outline: none;
-   height: 200px;
+   height: 8em;
 }
 
 input:focus, textarea:focus{
-  border-color: $yellow;
+  border-color: $color-focus;
+}
+
+textarea, input[type=text], input[type=email] {
+  @include font-size-mixin(1.1rem)
 }
 
 
 @media screen and(min-width: 1000px) {
   input{
-    width: 50%;
+    width: 75%;
     display: block;
   }
   textarea{
@@ -41,5 +44,4 @@ input:focus, textarea:focus{
     height: 10em;
     display: block;
   }
-}
 }

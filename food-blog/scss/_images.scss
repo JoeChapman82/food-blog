@@ -1,11 +1,30 @@
-img{
+img {
   max-width: 100%;
+}
+
+.section-image{
   border: 1px solid $black;
   @include box-shadow;
 }
 
+.logo-image {
+  max-width: 100%;
+}
+
 //fix later - rethink break point for grid layout when new navbar finished
-img.mealsSectionImage{
+//Need to figure out math for retaining aspect ratio
+.mealsSectionImage {
   height: 275px;
   width: 350px;
+}
+
+.section-image-large {
+  border: 1px solid $black;
+  @include box-shadow;
+   height: 200px;
+   width: 400px;
+}
+
+.social-icon {
+  margin: 0em 0.25em 1em 0.5em;
 }

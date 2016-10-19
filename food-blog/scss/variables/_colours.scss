@@ -1,23 +1,33 @@
 
-$bg-color1: #D7D7C1;
-$bg-color2: #B4A79A;
-$bg-color4: #AC7339;
+//background colors
+$bg-color-main: #D7D7C1;
+$bg-color-background: #B4A79A;
+$bg-color-button: #AC7339;
 
 $bg-color-form: #D3D3D3;
 
 $bg-color-nav-bar: #003300;
 
-$border-color1: #7a7a52;
-$border-color2: #996600;
+//border colors
+$border-color-main: #7a7a52;
+$border-color-navbar: #996600;
 $border-color-form: #000000;
 
+//focus color
+$color-focus: #FFFF00;
+
+//hover color
+$color-hover: #7F7F00;
+
+//text colors
 $text-color: #000000;
 $text-color-soft: #cccccc;
 
+//shadow colors
 $shadow-color: #172727;
 
+
+//Other colors
 $black: #000000;
 $white: #FFFFFF;
 $red: #FF0000;
-$yellow: #FFFF00;
-$dark-yellow: #7F7F00;

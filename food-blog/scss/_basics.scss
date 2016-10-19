@@ -3,49 +3,34 @@
     @include box-sizing;
 }
 
-body{
-
-  background-color: $bg-color2;
-  font-family: $main-font;
-  max-width: 1200px;
-  font-size: 100%;
-  margin: 0 auto;
-}
-
-body {
+html{
   @include font-size-mixin(16px);
 }
 
-p {
-  font-size: 1em;
+body{
+  @include font-size-mixin(1.1rem)
+  background-color: $bg-color-background;
+  font-family: $main-font;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+address {
+  font-style: normal;
+}
+
+pre.address-telephone {
+  font-family: $main-font;
 }
 
 .main{
   border:$border-section;
-  font-family: $main-font;
 }
 
-a:focus {
-  outline: none;
-  border-color: $yellow;
+.section{
+  background-color: $bg-color-main;
 }
 
-.home-link {
-  text-decoration: none;
-  color: $black;
-}
-
-.home-link:focus {
-  outline: 2px solid $yellow;
-}
-
-.main-heading {
-  text-align: center;
-  padding: 20px;
-  font-size: $font-xlarge;
-}
-
-.section {
-  background-color: $bg-color1;
+.section:not(:last-child) {
   border-bottom: $border-section;
 }

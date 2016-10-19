@@ -1,5 +1,5 @@
 header{
-  @include gradient-vertical ($bg-color4, $bg-color1);
+  @include gradient-vertical ($bg-color-button, $bg-color-main);
   border: $border-section;
   font-family: $main-font;
 }

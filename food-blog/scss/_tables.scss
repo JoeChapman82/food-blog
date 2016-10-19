@@ -1,5 +1,11 @@
-table, td, tr{
+table, td, tr, th{
   max-width: 100%;
   border: $border-form;
+  border-collapse: collapse;
   padding: 1em;
+}
+
+table {
+  background-color: $bg-color-background;
+  @include box-shadow;
 }

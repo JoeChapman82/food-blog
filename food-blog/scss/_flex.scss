@@ -2,30 +2,42 @@
     display: -webkit-flex;
     display: flex;
     height: auto;
-    padding: 20px;
+    padding: 1em;
     justify-content: center;
 }
 
+.align-center {
+  align-items: center;
+}
+
+
 .item {
     width: 100%;
-    padding: 30px;
+    padding: 1em 2em 2em 2em;
 }
 
 .item-small {
   width: 100%;
-  padding: 30px;
+  padding: 1.8em;
   flex: 1;
 }
 
 .item-large {
   width: 100%;
-  padding: 30px;
+  padding: 1.8em;
   flex: 2;
 }
 
 @media only screen and(max-width: 800px) {
   .container {
     flex-wrap: wrap;
+    padding: 0;
+  }
+}
+
+@media only screen and(max-width: 498px) {
+  .item, .item-large, .item-small {
+    padding: 0.5em 1em 0.5em 1em;
   }
 }
 

@@ -1,0 +1,10 @@
+.main-heading {
+  text-align: center;
+  padding: 20px;
+}
+
+//todo set up all font sizes - Check for rules around font sizing for mobiles
+
+p {
+  @include font-size-mixin(1.1rem);
+}

@@ -5,7 +5,8 @@
 
 //mixins here
 
-@import 'mixins/mixins';
+@import 'mixins/fonts';
+@import 'mixins/vendor';
 
 //other partials here
 @import 'flex';
@@ -17,5 +18,7 @@
 @import 'footers';
 @import 'images';
 @import 'lists';
+@import 'links';
 @import 'navigation';
 @import 'tables';
+@import 'typography';

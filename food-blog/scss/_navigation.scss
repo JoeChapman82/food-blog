@@ -27,12 +27,12 @@ a {
 }
 
 a:hover {
-  background-color: $dark-yellow;
+  background-color: $color-hover;
 }
 
 a:focus {
   outline: none;
-  border: 2px solid $yellow;
+  border: 2px solid $color-focus;
 }
 }
 
@@ -41,7 +41,7 @@ li.mobile-menu {
 }
 
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:820px) {
   .navbar-main li {display: none;}
 
   .navbar-main .mobile-menu {
