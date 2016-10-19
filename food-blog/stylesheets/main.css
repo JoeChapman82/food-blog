@@ -197,8 +197,8 @@ img {
   -webkit-box-shadow: 2px 2px 2px #172727;
   -moz-box-shadow: 2px 2px 2px #172727;
   box-shadow: 2px 2px 2px #172727;
-  height: 200px;
-  width: 400px; }
+  height: 100%;
+  width: 100%; }
 
 .social-icon {
   margin: 0em 0.25em 1em 0.5em; }

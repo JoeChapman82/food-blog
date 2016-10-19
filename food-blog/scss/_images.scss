@@ -1,3 +1,6 @@
+
+// Need to change images used
+
 img {
   max-width: 100%;
 }
@@ -11,14 +14,11 @@ img {
   max-width: 100%;
 }
 
-//fix later - rethink break point for grid layout when new navbar finished
-//Need to figure out math for retaining aspect ratio
-
 .section-image-large {
   border: 1px solid $black;
   @include box-shadow;
-   height: 200px;
-   width: 400px;
+   height: 100%;
+   width: 100%;
 }
 
 .social-icon {
