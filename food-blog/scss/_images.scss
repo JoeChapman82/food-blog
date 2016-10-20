@@ -10,10 +10,6 @@ img {
   @include box-shadow;
 }
 
-.logo-image {
-  max-width: 100%;
-}
-
 .section-image-large {
   border: 1px solid $black;
   @include box-shadow;

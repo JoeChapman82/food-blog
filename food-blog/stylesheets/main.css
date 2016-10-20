@@ -12,6 +12,9 @@
   width: 100%;
   padding: 1em 2em 2em 2em; }
 
+.meals-section > .item:not(:first-child) {
+  border-left: none; }
+
 .item-small {
   width: 100%;
   padding: 1.8em;
@@ -189,9 +192,6 @@ img {
   -moz-box-shadow: 2px 2px 2px #172727;
   box-shadow: 2px 2px 2px #172727; }
 
-.logo-image {
-  max-width: 100%; }
-
 .section-image-large {
   border: 1px solid #000000;
   -webkit-box-shadow: 2px 2px 2px #172727;
@@ -202,6 +202,10 @@ img {
 
 .social-icon {
   margin: 0em 0.25em 1em 0.5em; }
+
+.table-list {
+  padding: 0em 0em 0em 0.25em;
+  list-style-type: none; }
 
 a {
   text-decoration: none;
@@ -252,7 +256,7 @@ table, td, tr, th {
   max-width: 100%;
   border: 3px solid #000000;
   border-collapse: collapse;
-  padding: 1em; }
+  padding: 0.5em; }
 
 table {
   background-color: #B4A79A;

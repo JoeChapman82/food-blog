@@ -16,6 +16,10 @@
     padding: 1em 2em 2em 2em;
 }
 
+.meals-section > .item:not(:first-child) {
+  border-left: none;
+}
+
 .item-small {
   width: 100%;
   padding: 1.8em;
