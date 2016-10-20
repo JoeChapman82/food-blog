@@ -147,7 +147,7 @@ pre.address-telephone {
 [class*="column-"] {
   width: 100%;
   float: left;
-  padding: 15px; }
+  padding: 1em; }
 
 @media only screen and (min-width: 480px) {
   .column-quarter {
@@ -228,7 +228,7 @@ a:hover {
     display: block;
     color: #FFFFFF;
     text-align: center;
-    padding: 12px 12px;
+    padding: 0.5em 0.5em;
     border: 2px solid #003300;
     text-decoration: none; }
   .navbar-main a:hover, .navbar-contact a:hover {
@@ -259,6 +259,10 @@ table {
   -webkit-box-shadow: 2px 2px 2px #172727;
   -moz-box-shadow: 2px 2px 2px #172727;
   box-shadow: 2px 2px 2px #172727; }
+
+@media screen and (max-width: 480px) {
+  td {
+    padding: 0.25em; } }
 
 .main-heading {
   text-align: center;

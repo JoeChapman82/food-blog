@@ -9,3 +9,11 @@ table {
   background-color: $bg-color-background;
   @include box-shadow;
 }
+
+// Reduce padding for mobiles
+
+@media screen and(max-width:480px) {
+  td {
+    padding: 0.25em;
+  }
+}
