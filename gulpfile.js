@@ -87,7 +87,7 @@ gulp.task("css-lint", function() {
 
   return gulp.src(
       // Stylesheet source:
-      ['app/assets/css/**/*.scss']
+      ['food-blog/scss/**/*.scss']
     )
     .pipe(postcss(processors, {syntax: syntax_scss}));
 });
