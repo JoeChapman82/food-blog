@@ -8,7 +8,7 @@
   font-weight: bold;
   overflow: hidden;
   font-size: $font-large;
-  padding-left: 0.5em;
+  padding-left: .5em;
 
 li {
   float: left;
@@ -18,7 +18,7 @@ a {
   display: block;
   color: $white;
   text-align: center;
-  padding: 0.5em 0.5em;
+  padding: .5em .5em;
   border: 2px solid $bg-color-nav-bar;
   text-decoration: none;
 }
@@ -54,19 +54,19 @@ li.mobile-menu {
 }
 
 .mobile-menu-options {
-    display: none;
-    background-color: $bg-color-nav-bar;
-    border: $border-navbar;
-    position: absolute;
+  background-color: $bg-color-nav-bar;
+  border: $border-navbar;
+  display: none;
+  position: absolute;
 }
 
 .mobile-menu:hover .mobile-menu-options {
-    display: block;
+  display: block;
 }
 
-.mobile-menu-options a {
+ .mobile-menu-options a {
   border: $border-navbar;
-  padding: 0.6em 1.5em 0.6em 1.5em;
+  padding: .6em 1.5em;
 }
 
 .mobile-menu-options a:hover {

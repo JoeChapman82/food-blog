@@ -1,19 +1,19 @@
-table, td, tr, th{
+table, td, tr, th {
   max-width: 100%;
   border: $border-form;
   border-collapse: collapse;
-  padding: 0.5em;
+  padding: .5em;
 }
 
 table {
-  background-color: $bg-color-background;
   @include box-shadow;
+  background-color: $bg-color-background;
 }
 
 // Reduce padding for mobiles
 
 @media screen and(max-width:480px) {
   td {
-    padding: 0.25em;
+    padding: .25em;
   }
 }

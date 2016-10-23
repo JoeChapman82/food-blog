@@ -1,14 +1,14 @@
 input[type=submit] {
 
     background-color: $bg-color-button;
-    font-size: inherit;
-    font-weight: bold;
     border: $border-form;
     color: $black;
-    padding: 0.625em;
-    margin: 0.25em 0.25em;
-    @include box-shadow;
     cursor: pointer;
+    font-size: inherit;
+    font-weight: bold;
+    margin: .25em;
+    padding: .625em;
+    @include box-shadow;
 }
 
 input[type=submit]:hover{

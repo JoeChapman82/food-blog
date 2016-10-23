@@ -1,33 +1,33 @@
 
 * {
-    @include box-sizing;
+  @include box-sizing;
 }
 
-html{
+html {
   @include font-size-mixin(16px);
 }
 
-body{
-  @include font-size-mixin(1.1rem)
+body {
+  @include font-size-mixin(1.1rem);
   background-color: $bg-color-background;
   font-family: $main-font;
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 address {
   font-style: normal;
 }
 
-pre.address-telephone {
+.address-telephone {
   font-family: $main-font;
 }
 
-.main{
-  border:$border-section;
+.main {
+  border: $border-section;
 }
 
-.section{
+.section {
   background-color: $bg-color-main;
 }
 

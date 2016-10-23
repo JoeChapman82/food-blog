@@ -2,34 +2,33 @@
 
 
 [class*="column-"] {
-    width: 100%;
-    float: left;
-    padding: 1em;
+  float: left;
+  padding: 1em;
+  width: 100%;
 }
 
 @media only screen and(min-width: 480px) {
-    .column-quarter {
-        width: 25%;
+  .column-quarter {
+    width: 25%;
     }
 
-    .column-third {
-      width: 33.33%;
+  .column-third {
+    width: 33.33%;
     }
 
-    .column-half {
-        width: 50%;
+  .column-half {
+    width: 50%;
     }
 
-    .column-two-thirds {
-        width: 66.66%;
+  .column-two-thirds {
+    width: 66.66%;
     }
 
-    .column-three-quarters {
-        width: 75%;
+  .column-three-quarters {
+    width: 75%;
     }
 
-    .column-full {
-        width: 100%;
+  .column-full {
+    width: 100%;
     }
-
 }

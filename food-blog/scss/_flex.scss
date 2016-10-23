@@ -1,9 +1,9 @@
 .container {
-    display: -webkit-flex;
-    display: flex;
-    height: auto;
-    padding: 1em;
-    justify-content: center;
+  display: -webkit-flex;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  padding: 1em;
 }
 
 .align-center {
@@ -12,24 +12,27 @@
 
 
 .item {
-    width: 100%;
-    padding: 1em 2em 2em 2em;
+  padding: 1em 2em 2em 2em;
+  width: 100%;
 }
 
-.meals-section > .item:not(:first-child) {
+// navbar border works best - not sure if needed //
+.meals-section .item:not(:first-child) {
   border-left: none;
 }
 
 .item-small {
-  width: 100%;
-  padding: 1.8em;
   flex: 1;
+  padding: 1.8em;
+  width: 100%;
 }
 
 .item-large {
-  width: 100%;
-  padding: 1.8em;
   flex: 2;
+  padding: 1.8em;
+  width: 100%;
+
+
 }
 
 @media only screen and(max-width: 800px) {
@@ -41,7 +44,7 @@
 
 @media only screen and(max-width: 498px) {
   .item, .item-large, .item-small {
-    padding: 0.5em 1em 0.5em 1em;
+    padding: .5em 1em;
   }
 }
 

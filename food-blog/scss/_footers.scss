@@ -1,10 +1,7 @@
-footer{
+footer {
   background-color: $bg-color-main;
   border: $border-section;
-  font-family: $main-font;
-}
-
-//To remove floats from grid design if columns used
-footer{
+  //To remove floats from grid design if columns used
   clear: left;
+  font-family: $main-font;
 }
