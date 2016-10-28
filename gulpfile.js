@@ -1,6 +1,6 @@
 /******
 gulp.task('task-name', function() {
- things go here eg console.log('hello');
+console.log('hello');
 });
 ********/
 

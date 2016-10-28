@@ -1,5 +1,15 @@
 
-* {
+// check this works for snap
+@-ms-viewport {
+  width: device-width;
+}
+
+@viewport {
+  width: device-width;
+}
+
+textarea,
+input {
   @include box-sizing;
 }
 
@@ -23,7 +33,7 @@ address {
   font-family: $main-font;
 }
 
-.main {
+main {
   border: $border-section;
 }
 
